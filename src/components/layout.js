@@ -5,7 +5,7 @@ export default function layout() {
     return (
         <header style={Header}>
             <h1>TodoList</h1>
-            <Link style={linkstyle} to="/">Home</Link> | <Link style={linkstyle} to="/about">About</Link>
+            <Link style={linkstyle} to="/Todoapp">Home</Link> | <Link style={linkstyle} to="/Todoapp/about">About</Link>
         </header>
     )
 }
